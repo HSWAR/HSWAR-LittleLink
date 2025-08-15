@@ -1,0 +1,94 @@
+/*
+* LittleLink Button Styles
+* https://littlelink.io
+* Free to use under the MIT license
+* http://www.opensource.org/licenses/mit-license.php
+*/
+
+/* Brand Button Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Only include brand-specific button styling here */
+.button,button {
+  color:var(--button-text,#000000);
+  background-color:var(--button-background,transparent);
+	border:var(--button-border,none);
+	transition:filter 0.2s ease,transform 0.2s ease;
+}
+
+/* Global Button Hover Effect
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button:hover,button:hover {
+	filter:brightness(90%);
+	transform:translateY(-1px);
+}
+
+/* Button Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.icon {
+	filter:var(--icon-filter,none);
+}
+
+/* Website */
+.button.button-website {
+	--button-text:#ffffff;
+	--button-background:#28B05E;
+	--button-border:1px solid #ffffff;
+}
+
+/* Wallpapers */
+.button.button-wallpapers {
+	--button-text:#ffffff;
+	--button-background:#2457F5;
+	--button-border:1px solid #ffffff;
+}
+
+/* Apps */
+.button.button-apps {
+	--button-text:#ffffff;
+	--button-background:#625F66;
+	--button-border:1px solid #ffffff;
+}
+
+/* Brand-Specific Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Default */
+.button.button-default {
+	--button-text:#ffffff;
+	--button-background:#2457F5;
+	--button-border:1px solid #ffffff;
+}
+
+/* Bluesky */
+.button-bluesky {
+	--button-text:#FFFFFF;
+	--button-background:#1185FE;
+}
+
+/* Mastodon */
+.button-mastodon {
+	--button-text:#ffffff;
+	--button-background:#7F80E2;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* Patreon */
+.button-patreon {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* X */
+.button-x {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+/* GitHub */
+.button-github {
+	--button-text:#ffffff;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
