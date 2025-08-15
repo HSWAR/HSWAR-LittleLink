@@ -1,4 +1,4 @@
-# Project Name
+# HSWAR LittleLink
 
 Welcome to the HSWAR LittleLink! This LittleLink is built using and has been edited from the [LittleLink](https://github.com/sethcottle/littlelink/tree/main) codebase. LittleLink is an is an open source DIY Linktree alternative.
 
