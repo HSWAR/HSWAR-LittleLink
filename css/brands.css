@@ -29,21 +29,21 @@
 }
 
 /* Website */
-.button.button-website {
-	--button-text:#ffffff;
-	--button-background:#28B05E;
-	--button-border:1px solid #ffffff;
+.button.website {
+	--text:#ffffff;
+	--background:#28B05E;
+	--border:1px solid #ffffff;
 }
 
 /* Wallpapers */
-.button.button-wallpapers {
-	--button-text:#ffffff;
-	--button-background:#2457F5;
-	--button-border:1px solid #ffffff;
+.button.wallpapers {
+	--text:#ffffff;
+	--background:#2457F5;
+	--border:1px solid #ffffff;
 }
 
 /* Apps */
-.button.button-apps {
+.button.apps {
 	--button-text:#ffffff;
 	--button-background:#625F66;
 	--button-border:1px solid #ffffff;
@@ -57,6 +57,12 @@
 	--button-text:#ffffff;
 	--button-background:#2457F5;
 	--button-border:1px solid #ffffff;
+}
+
+/* Instagram */
+.button-instagram {
+	--button-text:#FFFFFF;
+	--button-background:#CD39A2;
 }
 
 /* Bluesky */
